@@ -16,9 +16,8 @@ The list of topics that were covered is as follows:
 2. Implement a Discrete Accept Reject Sampler to simulate draws from Binomial(n, p) using a Poisson proposal.
 
 ## Assignment 2
-1. Prove that Barker's algorithm generates a Bern(cy*py/cx*px + cy*py) event. 
+1. Prove that Barker's algorithm generates a Bern(cy\*py/cx\*px + cy\*py) event. 
 Also, find the probability distribution of the number of iterations it takes to give an output.
-
 2. Sample uniformly from a p-dimensional sphere (a circle is p=2). Consider a p-vector x = (x1, x2, ... , xp) and let  .  denote the Euclidean norm. The pdf of this distribution is given.
 Use a uniform p-dimensional hypercube to sample uniformly from this sphere. Implement this for p = 2, 3, 4, 5, and 6. 
 What happens as p increases?
@@ -27,8 +26,7 @@ What are the differences between the two settings?
 
 ## Assignment 3
 
-1. 
-Suppose X1, X2, , Xn (iid draws) and Y1, Y2, , Yn is a Markov chain with F as the stationary distribution. Consider two estimates of the mean, calculated as the average of Xis and Yis.
+1. Suppose X1, X2, , Xn (iid draws) and Y1, Y2, , Yn is a Markov chain with F as the stationary distribution. Consider two estimates of the mean, calculated as the average of Xis and Yis.
 Which estimator is better? In other words, which estimator has smaller variance? Support your answer with formal mathematical arguments.
 2. Suppose Y1, Y2, ..., Yn|𝜇 ~ N(𝜇, 1). Assume the prior on 𝜇 ~ t, where  is the degrees of freedom. Assume the prior on  ~ Truncated Gamma(a0, b0,(2,∞)), where (2,∞) is the support of Truncated Gamma.
 What is the joint posterior distribution of (𝜇, )?

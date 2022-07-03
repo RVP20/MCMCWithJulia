@@ -1,5 +1,8 @@
 # Markov Chain Monte Carlo With Julia
 
+##### Semester project offered by Stamatics, IIT Kanpur.
+##### Project Mentors: Vansh Bansal, Pramodh Gopalan
+
 ## Overview
 This project mainly focuses on Markov Chain Monte Carlo techniques. Markov Chain Monte Carlo sampling provides a class of algorithms for systematic random sampling from high-dimensional probability distributions. MCMC techniques often solve integration and optimization problems in large dimensional spaces. These two types of problems play a fundamental role in machine learning. Just going over the theory is boring. This project involved a substantial computational aspect, and we were asked to implement various algorithms, preferably in Julia. 
 
